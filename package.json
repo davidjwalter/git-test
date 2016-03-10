@@ -1,0 +1,22 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Test git access from node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidjwalter/git-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidjwalter/git-test/issues"
+  },
+  "homepage": "https://github.com/davidjwalter/git-test#readme",
+  "dependencies": {
+    "async": "^1.5.2"
+  }
+}
