@@ -6,7 +6,7 @@ var cmds = ['branch', 'tag', 'short', 'long'];
 var version;
 
 try {
-    version = require('package.json').version;
+    version = require('./package.json').version;
 } catch (e) {
     version = 'none';
 }
